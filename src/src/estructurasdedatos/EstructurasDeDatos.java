@@ -7,19 +7,22 @@ package estructurasdedatos;
 
 import estructurasdedatos.cap1.complejidad.Ciclos;
 import estructurasdedatos.cap1.complejidad.Condicionales;
+import estructurasdedatos.cap1.complejidad.EjerciciosComplejidad;
 
+/**
+ *
+ * @author tusk
+ */
 public class EstructurasDeDatos {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Ciclos ejerciciosciclos = new Ciclos();
+        /*Ciclos ejerciciosciclos = new Ciclos();
         
-        ejerciciosciclos.ejecutarejercicio1();
-        ejerciciosciclos.ejecutarejercicio2();
-        ejerciciosciclos.ejecutarejercicio3();
-        ejerciciosciclos.ejecutarejercicio4();
+        ejerciciosciclos.ejecutarejerciciosciclos();
+        
         
         
         Condicionales ejercicioscondicionales = new Condicionales();
@@ -27,6 +30,14 @@ public class EstructurasDeDatos {
         ejercicioscondicionales.ejecutarejercicio5();
         ejercicioscondicionales.ejecutarejercicio6();
         ejercicioscondicionales.ejecutarejercicio7();
+        */
+        
+        EjerciciosComplejidad ejerciciosccomplejos = new EjerciciosComplejidad();
+        
+        ejerciciosccomplejos.ejecutarejerciciosccomplejos();
     }
     
+  
+    
 }
+
